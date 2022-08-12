@@ -1,0 +1,810 @@
+@media only screen and (max-width:1100px) and (min-width:768px) {
+    #nav_bar li{
+        font-size: 11px;
+       
+    }
+    .welcome{
+        width: 100%;
+        height: 400px;
+
+    }
+    .overlay h1{
+        width: 50%;
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+    .overlay p{
+        width: 60%;
+        line-height: 35px;
+    }
+    .support{
+        width: 50%;
+    }
+    .support button{
+        width: 45%;
+        height: 30px;
+    }
+    .button{
+        font-size: 12px;
+        height: auto;
+    }
+
+    /* Offers Section */
+
+
+    .offers{
+        height: 1300px;
+    }
+    .offers h2{
+        width: 40%;
+    }
+    .offers h2::after{
+        width: 2%;
+        transform: translate(17px, -30px);
+    }
+    .offer_details{
+        width: 80%;
+    }
+    .sub_offers{
+        flex-direction: column;
+    }
+    .offer{
+        width: 90%;
+        height: 350px;
+    }
+    #off{
+        transform: translateY(0px);
+        
+    }
+    .learn{
+        width: 30%;
+        height: 40px;
+    }
+
+    /* Why Section */
+
+    .why{
+        justify-content: space-evenly;
+    }
+    .why_details{
+        justify-content: space-evenly;
+    }
+    .why_img{
+        width: 40%;
+        height: 350px;
+    }
+    .text{
+        width:80%;
+        height: 100px;
+    }
+
+    /* Doctors Section */
+
+   
+    .doctors h2{
+        width: 40%;
+    }
+    .doctors_section{
+        width: 95%;
+    }
+    .doc{
+        width: 30%;
+    }
+
+
+    /* News Section */
+    .news_container{
+        height: 500px;
+    }
+    .news_container h2{
+        width: 20%;
+    }
+   
+    .news_details{
+        width: 55%;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .slider{
+        width: 80%;
+        
+    }
+    .news{
+        justify-content: space-between;
+    }
+    #prev,#next{
+        height: 30px;
+        width: 30px;
+    }
+
+
+    /* Customer section */
+
+    .customers_container{
+        height: 500px;
+    }
+    .customers_container h2{
+        width: 40%;
+    } 
+    .customers_slider{
+        width: 80%;
+    }
+    .customers{
+        justify-content: space-between;
+    }
+    .customers_img,
+    .customers_img2,
+    .customers_img3{
+        width: 30%;
+        height: 210px;
+        background-position: center;
+    }
+    .customers_details{
+        width: 65%;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+
+    /* Subscription Section */
+
+   .mail input{
+        width: 70%;
+   } 
+   .sub_link{
+    width: 30%;
+   }
+
+
+
+   /* footer */
+   .footer{
+    height: 500px;
+   }
+   #foot1{
+    width: 35%;
+    height: 350px;
+    
+   }
+   .foot p{
+    width: 85%;
+    line-height: 1.4em;
+   }
+   .download{
+        width: 60%;
+        line-height: 40px;
+        
+   }
+   .copy{
+    margin: 0px;
+    transform: translateY(30px);
+
+   }
+
+
+    /* Services Page */
+
+    #service_page h1{
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+    #service_page .overlay{
+        /* padding-left: 5%; */
+    }
+    .home_services{
+        height: 400px ;
+    }
+    .home_services h2{
+        width: 25%;
+        
+    }
+    .home_services h2::after{
+        
+    }
+    .service_box{
+        width: 100%;
+        height: 200px;
+    }
+    .service_img{
+        width: 25%;
+        height: 80%;
+
+    }
+    .service_details{
+        line-height: 1.5em;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:768px) and (min-width:576px) {
+    #nav_bar li{
+        font-size: 11px;
+       
+    }
+    .welcome{
+        width: 100%;
+        height: 300px;
+
+    }
+    .overlay h1{
+        width: 50%;
+        font-size: 1.1em;
+        line-height: 30px;
+    }
+    .overlay p{
+        width: 90%;
+        line-height: 30px;
+    }
+    .support{
+        width: 50%;
+    }
+    .support button{
+        width: 45%;
+        height: 30px;
+    }
+    .button{
+        font-size: 12px;
+        height: auto;
+    }
+
+    /* Offers Section */
+
+
+    .offers{
+        height: 1200px;
+    }
+    .offers h2{
+        width: 35%;
+        font-size: 15px;
+        transform: translateY(15px);
+    }
+    .offers h2::after{
+        width: 2%;
+        height:25px ;
+        transform: translate(17px, -22px);
+    }
+    .offer_details{
+        width: 80%;
+        line-height: 30px;
+    }
+    .offer_details h3{
+        font-size: 15px;
+    }
+    .offer_details p{
+        font-size: 14px;
+    }
+    .sub_offers{
+        flex-direction: column;
+    }
+    .offer{
+        width: 90%;
+        height: 350px;
+    }
+    #off{
+        transform: translateY(0px);
+        
+    }
+    .learn{
+        width: 30%;
+        height: 40px;
+    }
+
+    /* Why Section */
+
+    .why{
+        justify-content: space-evenly;
+    }
+    .why_details{
+        justify-content: space-evenly;
+    }
+    .why_details h3{
+        font-size: 18px;
+    }
+    .why_img{
+        width: 40%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+    }
+    .text{
+        width:80%;
+        height: 100px;
+        line-height: 19px;
+        font-size: 14px;
+    }
+    .icon_holder{
+        justify-content: space-around;
+    }
+
+    /* Doctors Section */
+.doctors{
+    height: 350px;
+}
+   
+    .doctors h2{
+        width: 35%;
+        font-size: 15px;
+
+    }
+    .doctors h2::after{
+        
+        height: 25px;
+        transform: translate(0px, -20px);
+        
+        
+    }
+    .doctors_section{
+        width: 95%;
+    }
+    .doc{
+        width: 30%;
+        height: 220px;
+    }
+    .doc_img{
+        height: 170px;
+        border-radius: 5px;
+    }
+    .doc_data{
+        border-radius: 5px;
+    }
+    .name{
+        height: 20px;
+        font-size: 13px;
+    }
+    .position{
+        height: 20px;
+        font-size: 13px;
+    }
+
+
+    /* News Section */
+    .news_container{
+        height: 400px;
+    }
+    .news_container h2{
+        width: 18%;
+        font-size: 15px;
+    }
+    .news_container h2::after{
+        
+        height: 25px;
+        transform: translate(0px, -20px);
+    }
+   
+    .news_details{
+        width: 55%;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .news_img,
+    .news_img2,
+    .news_img3{
+        height: 200px;
+    }
+    .slider{
+        width: 80%;
+        
+    }
+    .news{
+        justify-content: space-between;
+    }
+    #prev,#next{
+        height: 30px;
+        width: 30px;
+    }
+
+
+    /* Customer section */
+
+    .customers_container{
+        height: 300px;
+    }
+    .customers_container h2{
+        width: 40%;
+        font-size: 15px;
+    } 
+    .customers_container h2::after{
+        
+        height: 25px;
+        transform: translate(0px, -20px);
+    }
+    .customers_slider{
+        width: 80%;
+    }
+    .customers{
+        justify-content: space-between;
+    }
+    .customers_img,
+    .customers_img2,
+    .customers_img3{
+        width: 30%;
+        height: 150px;
+        background-position: center;
+    }
+    .customers_details{
+        width: 65%;
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+
+    /* Subscription Section */
+    .sub_head{
+        width: 70%;
+    }
+    .mail{
+        width: 50%;
+        margin-top: -3%;
+    }
+   .mail input{
+        width: 70%;
+   } 
+   .sub_link{
+    width: 30%;
+   }
+
+
+
+   /* footer */
+   .footer{
+    height: 500px;
+   }
+   #foot1{
+    width: 35%;
+    height: 350px;
+    
+   }
+   .foot_logo{
+    width: 60%;
+   }
+   .foot p{
+    width: 85%;
+    font-size: 13px;
+    line-height: 1.4em;
+   }
+   .download{
+        width: 60%;
+        height: 39px;
+        font-size: 13px;
+        
+   }
+   .foot a li{
+        font-size: 10px;
+   }
+   #link_first{
+    font-size: 14px;
+
+   }
+   .copy{
+    margin: 0px;
+    transform: translateY(30px);
+    font-size: 8px;
+
+   }
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:576px) {
+    #nav_bar li{
+        font-size: 8px;
+       
+    }
+    .welcome{
+        width: 100%;
+        height: 200px;
+
+    }
+    .overlay h1{
+        width: 55%;
+        font-size: 0.6em;
+        line-height: 18px;
+    }
+    .overlay p{
+        width: 90%;
+        line-height: 19px;
+        font-size: 0.65em;
+    }
+    .support{
+        width: 70%;
+    }
+    .support button{
+        width: 45%;
+        height: 20px;
+        border-radius: 5px;
+    }
+    .button{
+        font-size: 10px;
+        height: auto;
+    }
+
+    /* Offers Section */
+
+
+    .offers{
+        height: 1200px;
+    }
+    .offers h2{
+        width: 35%;
+        font-size: 12px;
+        transform: translateY(15px);
+    }
+    .offers h2::after{
+        width: 2%;
+        height:20px ;
+        transform: translate(0px, -15px);
+    }
+    .offer_details{
+        width: 90%;
+        line-height: 25px;
+    }
+    .offer_details h3{
+        font-size: 13px;
+    }
+    .offer_details p{
+        font-size: 13px;
+    }
+    .sub_offers{
+        flex-direction: column;
+    }
+    .offer{
+        width: 90%;
+        height: 350px;
+    }
+    #off{
+        transform: translateY(0px);
+        
+    }
+    .learn{
+        width: 50%;
+        height: 35px;
+        border-radius: 5px;
+    }
+
+    /* Why Section */
+
+    .why{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 600px;
+    }
+    .why_details{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .why_details h3{
+        font-size: 18px;
+    }
+    .why_img{
+        width: 80%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+    }
+    .text{
+        width:80%;
+        height: 100px;
+        line-height: 19px;
+        font-size: 13px;
+    }
+    .icon_holder{
+        justify-content: space-around;
+    }
+
+    /* Doctors Section */
+.doctors{
+    height: 250px;
+}
+   
+    .doctors h2{
+        width: 60%;
+        font-size: 13px;
+
+    }
+    .doctors h2::after{
+        
+        height: 25px;
+        transform: translate(0px, -20px);
+        
+        
+    }
+    .doctors_section{
+        width: 95%;
+    }
+    .doc{
+        width: 30%;
+        height: 140px;
+    }
+    .doc_img{
+        height: 100px;
+        border-radius: 5px;
+    }
+    .doc_data{
+        border-radius: 5px;
+    }
+    .name{
+        height: 16px;
+        font-size: 9px;
+    }
+    .position{
+        height: 16px;
+        font-size: 9px;
+    }
+
+
+    /* News Section */
+    .news_container{
+        height: 350px;
+    }
+    .news_container h2{
+        width: 18%;
+        font-size: 15px;
+    }
+    .news_container h2::after{
+        
+        height: 25px;
+        transform: translate(0px, -20px);
+    }
+   
+    .news_details{
+        width: 55%;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .news_img,
+    .news_img2,
+    .news_img3{
+        height: 130px;
+    }
+    .slider{
+        width: 85%;
+        
+    }
+    .news{
+        justify-content: space-between;
+    }
+    #prev,#next{
+        height: 20px;
+        width: 20px;
+    }
+    .dot-container{
+        width: 200px;
+       
+    }
+    .dot-container button{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+
+    }
+
+
+    /* Customer section */
+
+    .customers_container{
+        height: 300px;
+    }
+    .customers_container h2{
+        width: 50%;
+        font-size: 12px;
+    } 
+    .customers_container h2::after{
+        
+        height: 25px;
+        transform: translate(0px, -20px);
+    }
+    .customers_slider{
+        width: 85%;
+    }
+    .customers{
+        justify-content: center;
+    }
+    .customers_img,
+    .customers_img2,
+    .customers_img3{
+        width: 30%;
+        height: 100px;
+        background-position: center;
+    }
+    .customers_details{
+        width: 60%;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #cus_prev,#cus_next{
+        height: 20px;
+        width: 20px;
+    }
+    #cus_prev{
+        left: 2px;
+    }
+    
+    #cus_next{
+        right: 2px;
+    }
+
+
+    /* Subscription Section */
+    .subscription{
+        height: 150px;
+    }
+    .sub_head{
+        width: 95%;
+        font-size: 15px;
+        height: 60px;
+    }
+    .mail{
+        width: 60%;
+        height: 30px;
+        margin-top: -3%;
+    }
+   .mail input{
+        height: 20px;
+        width: 70%;
+   } 
+   .sub_link{
+    width: 30%;
+    font-size: 10px;
+   }
+
+
+
+   /* footer */
+   .footer{
+    position: relative;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 55% 40% ;
+
+   }
+   #foot1{
+    width: 70%;
+    height: 300px;
+    
+   }
+   .foot{
+    width: 100%;
+    height: 300px;
+   }
+   .foot_logo{
+    width: 80%;
+   }
+   .foot p{
+    width: 100%;
+    font-size: 11px;
+    line-height: 1.2em;
+   }
+   .download{
+        width: 70%;
+        height: 25px;
+        font-size: 10px;
+        
+   }
+   .foot a li{
+    width: 100%;
+        font-size: 10px;
+   }
+   #link_first{
+    font-size: 14px;
+
+   }
+   .copy{
+    margin: 0px;
+    transform: translate(30px,500px);
+    font-size: 8px;
+    position: absolute;
+
+   }
+
+
+}
+
+
