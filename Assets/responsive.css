@@ -166,6 +166,9 @@
     height: 350px;
     
    }
+   .foot{
+    padding-left: 5%;
+   }
    .foot p{
     width: 85%;
     line-height: 1.4em;
@@ -183,42 +186,90 @@
 
 
     /* Services Page */
-
+    #nav_bar li{
+        font-size: 15px;
+       
+    }
     #service_page h1{
         font-size: 20px;
         line-height: 1.3em;
     }
-    #service_page .overlay{
-        /* padding-left: 5%; */
-    }
+   
     .home_services{
+        box-sizing: border-box;
         height: 400px ;
     }
     .home_services h2{
         width: 25%;
-        
+      
     }
     .home_services h2::after{
-        
+        transform: translate(-5px,-30px);
     }
     .service_box{
         width: 100%;
-        height: 200px;
+      
     }
     .service_img{
-        width: 25%;
-        height: 80%;
+        width: 35%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
 
     }
     .service_details{
-        line-height: 1.5em;
-        font-size: 12px;
+        width: 50%;
+        
+        
+    }
+
+    .get_a_doctor{
+        width: 40%;
+        height: 35px;
     }
 
 
 
+    #med_services h2{
+        width: 25%;
+        text-align:right;
+    }
 
+    #sch_appointment h2{
+        width: 35%;
+    }
+    .comment_body p{
+        width: 80%;
+        font-size: 14px;
+        line-height: 28px;
+        
+    }
+    .comment_body{
+        width: 58%;
+    }
+    .comment_section{
+        width: 90%;
+        
+       
+    }
 
+    .comment_body h3{
+       font-size: 15px;
+    }
+    .comment_img{
+        width: 40%;
+        background-size: cover;
+        background-position: center;
+    }
+    .status{
+        width: 95%;
+        
+    }
+    .sta{
+        font-size: 12px;
+        width: 50%;
+        
+    }
 
 
 }
@@ -226,7 +277,7 @@
 
 @media only screen and (max-width:768px) and (min-width:576px) {
     #nav_bar li{
-        font-size: 11px;
+        font-size: 13px;
        
     }
     .welcome{
@@ -462,6 +513,9 @@
     height: 350px;
     
    }
+   .foot{
+    padding-left: 5%;
+   }
    .foot_logo{
     width: 60%;
    }
@@ -489,6 +543,179 @@
     font-size: 8px;
 
    }
+
+
+
+
+
+
+
+
+   /* Services Page */
+
+   #nav_bar li{
+    font-size: 13px;
+   
+}
+
+   #service_page h1{
+    width: 70%;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+.home_services{
+    box-sizing: border-box;
+    height: 700px ;
+    align-items: center;
+    
+}
+.home_services h2{
+    width: 35%;
+    margin-left: 0em;
+  
+}
+.home_services h2::after{
+    transform: translate(-0px,-30px);
+}
+.service_box{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.service_img{
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+
+}
+.service_details{
+    width: 80%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.get_a_doctor{
+    width: 40%;
+    height: 35px;
+}
+
+
+
+
+#med_services h2{
+    width: 45%;
+    text-align:center;
+    margin: 0px;
+    align-self: center;
+}
+#med_services h2::after{
+    transform: translate(0px,-27px);
+}
+#free_medical{
+    
+    flex-direction: column;
+}
+.med_img{
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#sch_appointment h2{
+    width: 50%;
+}
+.comment_body p{
+    width: 80%;
+    font-size: 14px;
+    line-height: 28px;
+    
+}
+.comment_body{
+    width: 67%;
+}
+.comment_section{
+    width: 90%;
+    align-items: center;
+    
+   
+}
+
+.comment_body h3{
+   font-size: 15px;
+}
+.comment_img{
+    width: 30%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.status{
+    width: 95%;
+    
+}
+.sta{
+    font-size: 12px;
+    width: 50%;
+    
+}
+
+ /* footer ( Service Page) */
+ .footer{
+    position: relative;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 55% 40% ;
+    box-sizing: border-box;
+
+   }
+   #foot1{
+    width: 70%;
+    height: 300px;
+    
+   }
+   .foot{
+    width: 100%;
+    height: 300px;
+   }
+   .foot_logo{
+    width: 80%;
+   }
+   .foot p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.3em;
+   }
+   .download{
+        width: 70%;
+        height: 28px;
+        font-size: 10px;
+        
+   }
+   .foot a li{
+    width: 100%;
+        font-size: 12px;
+   }
+   #link_first{
+    font-size: 14px;
+
+   }
+   .copy{
+    margin: 0px;
+    transform: translate(30px,500px);
+    font-size: 9px;
+    position: absolute;
+
+   }
+
 
 
 }
@@ -803,6 +1030,194 @@
     position: absolute;
 
    }
+
+
+
+
+    /* Services Page */
+
+    #service_page{
+        height: 150px;
+    }
+    
+       #service_page h1{
+        width: 70%;
+        font-size: 10px;
+        line-height: 1.1em;
+    }
+    .overlay p{
+        font-size: 9px;
+        line-height: 1.1em;
+    }
+    
+    .home_services{
+        box-sizing: border-box;
+        height: 600px ;
+        align-items: center;
+        
+    }
+    .home_services h2{
+        width: 35%;
+        font-size: 13px;
+        margin-left: 0em;
+      
+    }
+    .home_services h2::after{
+        transform: translate(-0px,-20px);
+        height: 25px;
+    }
+    .service_box{
+        width: 100%;
+        height: 500px;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+    .service_img{
+        width: 80%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .service_details{
+        width: 80%;
+        height: 230px;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+    }
+    .service_details p{
+        font-size: 12px;
+        line-height: 1.8em;
+    }
+    
+    .get_a_doctor{
+        width: 45%;
+        height: 30px;
+        font-size: 11px;
+    }
+    
+    
+    
+    
+    #med_services h2{
+        width: 55%;
+        text-align:center;
+        margin: 0px;
+        align-self: center;
+        font-size:13px ;
+    }
+    #med_services h2::after{
+        transform: translate(0px,-27px);
+    }
+    #free_medical{
+        
+        flex-direction: column;
+    }
+    .med_img{
+        width: 80%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    #sch_appointment h2{
+        width: 50%;
+    }
+
+
+    .doc_comment{
+        height: 600px;
+    }
+    .comment_body p{
+        width: 80%;
+        font-size: 10px;
+        line-height: 22px;
+        
+    }
+    .comment_body{
+        width: 90%;
+        height: 60%;
+    }
+    .comment_section{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+       
+    }
+    
+    .comment_body h3{
+       font-size: 13px;
+      
+    }
+    .comment_img{
+        width: 50%;
+        height: 30%;
+        background-size: cover;
+        background-position: center;
+    }
+    .status{
+        width: 95%;
+        
+    }
+    .sta{
+        font-size: 9px;
+        width: 50%;
+        
+    }
+    
+      /* footer */
+   .footer{
+    position: relative;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 55% 40% ;
+
+   }
+   #foot1{
+    width: 70%;
+    height: 300px;
+    
+   }
+   .foot{
+    width: 100%;
+    height: 300px;
+   }
+   .foot_logo{
+    width: 80%;
+   }
+   .foot p{
+    width: 100%;
+    font-size: 11px;
+    line-height: 1.2em;
+   }
+   .download{
+        width: 70%;
+        height: 25px;
+        font-size: 10px;
+        
+   }
+   .foot a li{
+    width: 100%;
+        font-size: 10px;
+   }
+   #link_first{
+    font-size: 14px;
+
+   }
+   .copy{
+    margin: 0px;
+    transform: translate(30px,500px);
+    font-size: 8px;
+    position: absolute;
+
+   }
+
 
 
 }
