@@ -160,6 +160,7 @@
    /* footer */
    .footer{
     height: 500px;
+   
    }
    #foot1{
     width: 35%;
@@ -721,8 +722,13 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:576px) {
+    #icon{
+        display: block;
+        
+    }
     #nav_bar li{
         font-size: 8px;
+        display: none;
        
     }
     .welcome{

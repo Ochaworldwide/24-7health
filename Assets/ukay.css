@@ -44,6 +44,39 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
+
+
+
+.fa-bars:hover{
+    cursor: pointer;
+}
+#icon{
+   margin-right: 20px;
+   box-sizing: border-box;
+    display: none;
+    transform: rotate(0deg);
+}
+.fa-bars{
+    
+   font-size: 30px;
+}
+
+#navs{
+    width: 25%;
+    line-height: 26px;
+    left: 75%;
+    font-size: 11px;
+    background-color: rgba(255, 255, 255, 0.386);
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateY(76px);
+    border-radius: 5px;
+
+
+}
 li{
     list-style: none;
     font-weight: bold;

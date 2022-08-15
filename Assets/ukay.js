@@ -53,12 +53,31 @@ function prever(){
 }
 
 
+function i_clicker(){
+    var icon=document.getElementById("icon");
+    var nav=document.getElementById("navs");
+    
+   
 
-
-
-if (scrollY==500){
-    var head=document.getElementsByClassName("header")
-    head.s
+    if (nav.style.display=="none"){
+        icon.style.transform="rotate(180deg)";
+        nav.style.display="flex";
+        
+    }
+    else{
+        icon.style.transform="rotate(0deg)";
+        nav.style.display="none";
+        
+        
+    }
+    myFun();
 }
+    function myFun(){
+        var icon=document.getElementById("icon");
+        
+        icon.style.transitionDuration="1s";
+    }
+
+
 
 
