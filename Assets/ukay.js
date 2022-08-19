@@ -62,21 +62,21 @@ function i_clicker(){
     if (nav.style.display=="none"){
         icon.style.transform="rotate(180deg)";
         nav.style.display="flex";
-        
+        icon.style.transitionDuration="2s";
     }
     else{
         icon.style.transform="rotate(0deg)";
         nav.style.display="none";
-        
+        icon.style.transitionDuration="2s";
         
     }
-    myFun();
+    // myFun();
 }
-    function myFun(){
-        var icon=document.getElementById("icon");
+    // function myFun(){
+    //     var icon=document.getElementById("icon");
         
-        icon.style.transitionDuration="1s";
-    }
+        
+    // }
 
 
 

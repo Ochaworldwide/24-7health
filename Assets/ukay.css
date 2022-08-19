@@ -62,11 +62,10 @@ body{
 }
 
 #navs{
-    width: 25%;
+    width: 100%;
     line-height: 26px;
-    left: 75%;
     font-size: 11px;
-    background-color: rgba(255, 255, 255, 0.386);
+    background-color: rgba(255, 255, 255, 0.818);
     display: none;
     position: absolute;
     flex-direction: column;
@@ -77,6 +76,7 @@ body{
 
 
 }
+
 li{
     list-style: none;
     font-weight: bold;
@@ -86,6 +86,7 @@ li{
     font-weight: 600;
     
 }
+
 .nav_bar li:hover{
     transition: 1s;
     color: #117215;
@@ -1174,9 +1175,15 @@ button{
 .social_profile_links{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    align-items:center ;
     width: 50%;
-    height: 50px;
+    height: 100px;
+    justify-content: space-between;
+}
+.fa-instagram,
+.fa-facebook-f,
+.fa-twitter{
+    color: #ffff;
 }
 
 
